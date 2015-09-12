@@ -1,5 +1,8 @@
 # babel plugin auto assign
 
+[![npm version](https://img.shields.io/npm/v/babel-plugin-auto-assign.svg)](https://www.npmjs.org/package/babel-plugin-auto-assign)
+[![npm downloads](https://img.shields.io/npm/dm/babel-plugin-auto-assign.svg)](https://www.npmjs.org/package/babel-plugin-auto-assign)
+
 A babel plugin that automatically assigns constructor parameters to instance properties.
 
 ```js
