@@ -1,10 +1,10 @@
 import AutoAssign from './auto-assign';
 
-export default function ({ Plugin, types }) {
+export default function ({ Plugin, types: t }) {
   return new Plugin('autoassign', {
     visitor: {
       ClassDeclaration: function (node, parent) {
-        new AutoAssign(types).run(node);
+        new AutoAssign(t).run(node);
       }
     }
   });

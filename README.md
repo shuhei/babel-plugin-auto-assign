@@ -1,4 +1,4 @@
-# babel plugin auto assign
+# babel-plugin-auto-assign
 
 [![npm version](https://img.shields.io/npm/v/babel-plugin-auto-assign.svg)](https://www.npmjs.org/package/babel-plugin-auto-assign)
 [![npm downloads](https://img.shields.io/npm/dm/babel-plugin-auto-assign.svg)](https://www.npmjs.org/package/babel-plugin-auto-assign)
@@ -25,14 +25,36 @@ class Hello {
 
 ## Installation
 
-```
-npm install babel-plugin-auto-assign
+```sh
+$ npm install babel-plugin-auto-assign
 ```
 
 ## Usage
 
+### Via `.babelrc` (Recommended)
+
+**.babelrc**
+
+```json
+{
+  "optional": ["es7.decorators"],
+  "plugins": ["auto-assign"]
+}
 ```
-babel --optional es7.decorators --plugins auto-assign source.js
+
+### Via CLI
+
+```sh
+$ babel --optional es7.decorators --plugins auto-assgin script.js
+```
+
+### Via Node API
+
+```js
+require('babel-core').transform('code', {
+  optional: ['es7.decorators'],
+  plugins: ['auto-assign']
+});
 ```
 
 ## License

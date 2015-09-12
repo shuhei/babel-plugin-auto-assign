@@ -9,7 +9,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel-plugin build",
-    "publish": "babel-plugin publish",
+    "push": "babel-plugin publish",
     "test": "npm run build && mocha"
   },
   "files": [
