@@ -15,7 +15,7 @@ export default class AutoAssign {
 
   findAutoAssignDecorators(klass) {
     return (klass.decorators || []).filter((decorator) => {
-      return decorator.expression.name === 'autoassign';
+      return decorator.expression.name === 'autoAssign';
     });
   }
 

@@ -6,7 +6,7 @@
 A babel plugin that automatically assigns constructor parameters to instance properties.
 
 ```js
-@autoassign
+@autoAssign
 class Hello {
   constructor(foo, bar, baz) {
   }
