@@ -6,7 +6,7 @@
     "babel",
     "babel-plugin"
   ],
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel-plugin build",
     "publish": "babel-plugin publish",
