@@ -1,14 +1,22 @@
 {
   "name": "babel-plugin-auto-assign",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A babel plugin that automatically assigns constructor parameters to instance properties.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel-plugin build",
+    "publish": "babel-plugin publish",
+    "test": "npm run build && mocha"
   },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "lib"
+  ],
   "author": "Shuhei Kagawa <shuhei.kagawa@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^5.8.23"
+    "babel": "^5.8.23",
+    "mocha": "^2.3.2"
   }
 }
