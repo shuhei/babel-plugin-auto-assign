@@ -3,7 +3,9 @@
 [![npm version](https://img.shields.io/npm/v/babel-plugin-auto-assign.svg)](https://www.npmjs.org/package/babel-plugin-auto-assign)
 [![npm downloads](https://img.shields.io/npm/dm/babel-plugin-auto-assign.svg)](https://www.npmjs.org/package/babel-plugin-auto-assign)
 
-A babel plugin that automatically assigns constructor parameters to instance properties.
+A babel plugin that automatically assigns constructor parameters to instance properties. Might be convenient for class-based DI like Angular does.
+
+Before:
 
 ```js
 @autoAssign
@@ -12,6 +14,8 @@ class Hello {
   }
 }
 ```
+
+After:
 
 ```js
 class Hello {
