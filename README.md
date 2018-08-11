@@ -1,7 +1,11 @@
-# babel-plugin-auto-assign
+# [DEPRECATED] babel-plugin-auto-assign
 
 [![npm version](https://img.shields.io/npm/v/babel-plugin-auto-assign.svg)](https://www.npmjs.org/package/babel-plugin-auto-assign)
 [![npm downloads](https://img.shields.io/npm/dm/babel-plugin-auto-assign.svg)](https://www.npmjs.org/package/babel-plugin-auto-assign)
+
+**This plugin is no longer maintained, and works only with Babel v5. To use the feature in newer versions of Babel, please check out [jakewhelan/babel-plugin-transform-constructor-self-assign](https://github.com/jakewhelan/babel-plugin-transform-constructor-self-assign)**
+
+---
 
 A babel plugin that automatically assigns constructor parameters to instance properties. Might be convenient for class-based DI like Angular does.
 
